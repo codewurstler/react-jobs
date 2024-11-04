@@ -1,10 +1,11 @@
 import React from 'react';
+import JobListings from "../components/JobListings.jsx";
 
 const JobsPage = () => {
     return (
-        <div>
-            
-        </div>
+        <section className="bg-blue-50 px-4 px-6">
+            <JobListings />
+        </section>
     );
 };
 
